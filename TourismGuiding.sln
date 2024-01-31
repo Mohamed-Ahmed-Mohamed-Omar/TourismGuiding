@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TourismGuiding", "TourismGuiding\TourismGuiding.csproj", "{003D3232-7331-4AA8-9EF8-5E3F3A97F28B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B3DA316C-A442-485B-BC8C-6613B216ADD2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{7C1BA851-8B7D-4A17-8F53-15B5C1E9F5A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{949B9404-79BC-4D98-8591-4D085101F276}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{AC77AC23-1850-416A-B024-7D6C9E97257D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TourismGuiding.Application", "TourismGuiding.Application\TourismGuiding.Application.csproj", "{3A1C217A-A729-4F11-B5BE-10EFE7C9094E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TourismGuiding.Entities", "TourismGuiding.Entities\TourismGuiding.Entities.csproj", "{BA1E8601-D09E-4323-B242-A4853601CFCC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TourismGuiding.Persistance", "TourismGuiding.Persistance\TourismGuiding.Persistance.csproj", "{839541D6-755C-4606-B579-52589250FA5F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{003D3232-7331-4AA8-9EF8-5E3F3A97F28B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{003D3232-7331-4AA8-9EF8-5E3F3A97F28B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{003D3232-7331-4AA8-9EF8-5E3F3A97F28B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{003D3232-7331-4AA8-9EF8-5E3F3A97F28B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A1C217A-A729-4F11-B5BE-10EFE7C9094E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A1C217A-A729-4F11-B5BE-10EFE7C9094E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A1C217A-A729-4F11-B5BE-10EFE7C9094E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A1C217A-A729-4F11-B5BE-10EFE7C9094E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA1E8601-D09E-4323-B242-A4853601CFCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA1E8601-D09E-4323-B242-A4853601CFCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA1E8601-D09E-4323-B242-A4853601CFCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA1E8601-D09E-4323-B242-A4853601CFCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{839541D6-755C-4606-B579-52589250FA5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{839541D6-755C-4606-B579-52589250FA5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{839541D6-755C-4606-B579-52589250FA5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{839541D6-755C-4606-B579-52589250FA5F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{003D3232-7331-4AA8-9EF8-5E3F3A97F28B} = {7C1BA851-8B7D-4A17-8F53-15B5C1E9F5A3}
+		{7C1BA851-8B7D-4A17-8F53-15B5C1E9F5A3} = {B3DA316C-A442-485B-BC8C-6613B216ADD2}
+		{949B9404-79BC-4D98-8591-4D085101F276} = {B3DA316C-A442-485B-BC8C-6613B216ADD2}
+		{AC77AC23-1850-416A-B024-7D6C9E97257D} = {B3DA316C-A442-485B-BC8C-6613B216ADD2}
+		{3A1C217A-A729-4F11-B5BE-10EFE7C9094E} = {949B9404-79BC-4D98-8591-4D085101F276}
+		{BA1E8601-D09E-4323-B242-A4853601CFCC} = {949B9404-79BC-4D98-8591-4D085101F276}
+		{839541D6-755C-4606-B579-52589250FA5F} = {AC77AC23-1850-416A-B024-7D6C9E97257D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F2B9163-493E-4BED-BFC5-6DF4EADBB434}
+	EndGlobalSection
+EndGlobal
