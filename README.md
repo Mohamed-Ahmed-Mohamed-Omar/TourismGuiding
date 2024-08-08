@@ -1,0 +1,1 @@
+This system helps tourists know the most important archaeological sites and tourist attractions, the most important hospitals, the most important hotels, the official language spoken by the country’s residents, the most important customs and traditions followed, the most important laws, the most important restaurants, and the most important entertainment places in each country.
